@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style type="text/css">
+            table.one{border-collapse: collapse;}
+            table.two{border-collapse: separate;}
+            td.a{
+                border-style: dotted;
+                border-width: 3px;
+                border-color: #000000;
+                padding: 10px;
+            }
+            td.b{
+                border-style: solid;
+                border-width: 3px;
+                border-color: #333333;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="one">
+            <caption>collapse border Example</caption>
+            <tr>
+                <td class="a">cell a collapse Example</td>
+            </tr>
+            <tr><td class="b">cell b collapse example</td></tr>
+        </table>
+        <br/>
+        <table class="two">
+            <caption>seperate border example</caption>
+            <tr><td class="a">cell a seperate example</td></tr>
+            <tr><td class="b">cell bseperate example</td></tr>
+        </table>
+    </body>
+</html>
